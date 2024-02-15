@@ -3,8 +3,9 @@ k=''
 while True:
     print("1.press 0 for ROCK\n2.press 1 for PAPER\n3.press 2 for SCISSOR")
     player1="Computer".upper()
+    player2=input("player2 please enter your name=")
     print("player1:",player1)
-    player2=input("Player2 please enter your name:").upper()
+    print("player2:",player2.upper())
     while True:
         n1=random.randint(0,2)
         try:
